@@ -1,0 +1,32 @@
+.cell {
+    box-sizing: border-box;
+    display: inline-flex;
+    border: 1px solid black;
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+  }
+  
+  .row {
+    height: 24px;
+    display: flex;
+  }
+  
+  .board {
+    display: flex;
+  }
+  
+  .hs {
+    width: 32px;
+  }
+  
+  .button {
+    display: block;
+    margin-bottom: 4px;
+  }
+  
+  .result {
+    margin-top: 12px;
+  }
